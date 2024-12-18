@@ -1,0 +1,82 @@
+﻿<Window x:Class="ParserWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParserWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0">
+            <Label x:Name="ValueCode1" Content="Код валюты: "></Label>
+            <Label x:Name="Name1" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue1" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue1" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0">
+            <Label x:Name="ValueCode2" Content="Код валюты: "></Label>
+            <Label x:Name="Name2" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue2" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue2" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1">
+            <Label x:Name="ValueCode3" Content="Код валюты: "></Label>
+            <Label x:Name="Name3" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue3" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue3" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="1" Grid.Row="1">
+            <Label x:Name="ValueCode4" Content="Код валюты: "></Label>
+            <Label x:Name="Name4" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue4" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue4" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="2">
+            <Label x:Name="ValueCode5" Content="Код валюты: "></Label>
+            <Label x:Name="Name5" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue5" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue5" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="1" Grid.Row="2">
+            <Label x:Name="ValueCode6" Content="Код валюты: "></Label>
+            <Label x:Name="Name6" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue6" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue6" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="3">
+            <Label x:Name="ValueCode7" Content="Код валюты: "></Label>
+            <Label x:Name="Name7" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue7" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue7" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="1" Grid.Row="3">
+            <Label x:Name="ValueCode8" Content="Код валюты: "></Label>
+            <Label x:Name="Name8" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue8" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue8" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="4">
+            <Label x:Name="ValueCode9" Content="Код валюты: "></Label>
+            <Label x:Name="Name9" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue9" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue9" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Column="1" Grid.Row="4">
+            <Label x:Name="ValueCode10" Content="Код валюты: "></Label>
+            <Label x:Name="Name10" Content="Название валюты: "></Label>
+            <Label x:Name="CurrentValue10" Content="Текущий курс валюты: "></Label>
+            <Label x:Name="PreviousValue10" Content="Прошлый курс валюты: "></Label>
+        </StackPanel>
+    </Grid>
+</Window>
